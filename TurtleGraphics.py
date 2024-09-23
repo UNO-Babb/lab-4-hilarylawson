@@ -26,7 +26,9 @@ def fillCorner(myTurtle, corner):
         myTurtle.forward(50)
         myTurtle.left(90)
     elif corner == 4:
-        myTurtle.left
+        myTurtle.forward(100)
+        myTurtle.right(90)
+        myTurtle.forward(50)
    
     myTurtle.begin_fill()
     drawSquare(myTurtle, 50)
